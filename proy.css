@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #ccccb3;
+}
+
+
+
+#contenido{
+	margin-left: 50px;
+}
+
+#menu ul{
+	overflow: hidden;
+	list-style: none;
+	background-color: black;
+
+}
+
+#menu li{
+	float:left;
+ padding: 14px 16px;
+	color: white;
+background-color: black;
+
+}
+
+#pagina2{
+	display: none;
+}
+
+#pagina3{
+	display: none;
+}
+
+/* CSS de la galeria de imagenes */
+
+#principal{
+	text-align: center;
+}
+
+#principal img{
+	width: 30%;
+	height: 30%;
+}
+
+#lista{
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+#lista ul{
+	overflow: hidden;
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+#lista li{
+	float: left;
+	width: 100px;
+}
+
+#lista li img{
+	width: 100%;
+	height: 100%;
+}
+
+/* Tamaño del mapa de google */
+
+#maps{
+	width:500px;
+	height:380px;
+}
+
+
+/* Responsive design */
+
+@media screen and (min-width: 1024px) {/*Desktop*/
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px){ /*Tablet*/
+
+}
+
+@media screen and (max-width: 768px) { /*Movil*/
+#lista li img{
+	width: 15%;
+	height: 15%;
+}
+}
